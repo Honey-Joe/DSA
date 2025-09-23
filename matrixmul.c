@@ -32,7 +32,7 @@ void main(){
     }
 
     for(i=0;i<m ; i++){
-        for(j = 0 ; j < n ; j ++  ){
+        for(j = 0 ; j < m; j ++  ){
             printf("%d ",c[i][j]);
         }
         printf("\n");
