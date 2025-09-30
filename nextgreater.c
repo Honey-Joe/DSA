@@ -5,7 +5,7 @@ void main(){
     // printf("Enter the number of elemements in an array");
     // scanf("%d",&n);
     // int a[n];
-    int a[5] = {10,5,1,2,9};
+    int a[5] = {1,2,3,4,5};
     // for(i=0;i<5;i++){
     //     printf("Enter the elements:");
     //     scanf("%d",&a[i]);
@@ -19,7 +19,7 @@ void main(){
     for(i=0 ; i< 5 ; i++){
         int next = -1;
         for(j = i +1 ; j < 5; j++){
-            if(a[i]>a[j]){
+            if(a[i]<a[j]){
                 next = a[j];
                 break;
             }

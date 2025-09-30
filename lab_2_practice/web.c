@@ -19,7 +19,7 @@ void pop(){
     if(top == -1){
         printf("No webpage to go back");
         return;
-    }
+    }   
     printf("Going back from %s\n", a[top]);
     top--;
     if(top >=0 ){

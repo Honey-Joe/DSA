@@ -90,9 +90,5 @@ void main(){
         printf("The element is not found");
     }
 
-
-
-
-
     
 }
